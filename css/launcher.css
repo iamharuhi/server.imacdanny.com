@@ -9,3 +9,25 @@
 footer {
     margin: 30px 0;
 }
+
+@media (prefers-color-scheme: light) {
+    body{
+	background-color: #fff;
+	color: #333;
+  }
+  .thumbnail{
+	background-color: #fff;
+	color: #333;  
+  } 
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+	background-color: #222;
+	color: #a4a4a4;
+  }
+   .thumbnail{
+	background-color: #666;
+	color: #a4a4a4;
+  }
+}
